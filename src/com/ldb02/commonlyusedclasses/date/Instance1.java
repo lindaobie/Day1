@@ -4,6 +4,8 @@ import java.time.Instant;
 import java.time.OffsetDateTime;
 import java.time.ZoneOffset;
 
+
+
 /**
  * @author LinDaobie
  * @date 2022-04-13 2:22
@@ -23,6 +25,8 @@ public class Instance1 {
      */
 
     public static void main(String[] args) {
+
+        System.out.println("version1");
 
         // 一、now()：获取本初子午线 对应的 标准时间
         Instant instant = Instant.now();
