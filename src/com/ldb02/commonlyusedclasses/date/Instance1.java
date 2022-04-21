@@ -26,7 +26,11 @@ public class Instance1 {
 
     public static void main(String[] args) {
 
+
         System.out.println("version1");
+
+        System.out.println(" version 1 in branch 'hot_fix' ");
+
 
         // 一、now()：获取本初子午线 对应的 标准时间
         Instant instant = Instant.now();
